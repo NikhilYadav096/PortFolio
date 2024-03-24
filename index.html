@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Nikhil portfolio.con</title>
+    <style>
+        .body {
+            height: 3100px;
+            background-color: black;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: black;
+            font-size: 25px
+        }
+
+        .nav-link {
+            color: #fff;
+        }
+
+        .nav-link:hover {
+            color: tomato;
+
+        }
+
+        .head {
+            height: 840px;
+            background-image: url(img/5652030.png.webp);
+            color: #fff;
+            font-size: 20px;
+            font-family: monospace;
+        }
+
+        .cate {
+            padding: 120px;
+            padding-top: 155px;
+        }
+
+        .btn {
+            width: 140px;
+            height: 40px;
+            border-radius: 4px;
+            background: tomato;
+            color: #fff;
+            border: 2px solid rgba(255, 255, 255, 1)
+        }
+
+        .main {
+            height: 600px;
+            font-family: monospace;
+        }
+
+        .img-fluid {
+            border-radius: 24px;
+            width: 350px;
+            height: 310px;
+            padding-top: 10%;
+        }
+
+        .footer {
+            height: 1140px;
+            width: 100%;
+        }
+
+        .skills {
+            padding: 50px;
+        }
+
+        .progress {
+            background-color: rgba(228, 238, 238, 0.155);
+            height: 30px;
+            border-radius: 30px;
+            color: tomato;
+        }
+
+        .pro {
+            margin: 40px;
+            background-color: rgba(228, 238, 238, 0.155);
+            border-radius: 20px;
+            width: 400px;
+        }
+
+        .pro:hover {
+            background-color: tomato;
+            color: black;
+            transition: 0.6s ease-in-out;
+            animation: pulse 2s;
+            box-shadow: 20px 20px 5px rgba(228, 238, 238, 0.155);
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: #fff; font-size: 29px;" href="#">Nikhil Yadav</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About me </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="head">
+        <div class="cate">
+            <h4 style="font-size: 40px;"> Hey there,</h4>
+            <h1 style="font-size: 70px;">I'm NIkhil<br>Yadav</h1>
+            <h4 style="color: tomato; font-size: 40px;">-White hat hacker</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Eaque tempora itaque porro aliquam natus
+                error
+                enim<br>
+                saepe esse, harum voluptates ex quae recusandae quo<br>
+                quas adipisci obcaecati officia unde autem?</p>
+            <button class="btn">Get in touch</button>
+        </div>
+    </header>
+    <!--about-->
+    <div class="main">
+        <div style="padding: 70px;">
+            <div class="row">
+                <div class="col">
+                    <img src="img/5652030.png.webp" alt="About" style="width: 660px; height: 260; border-radius: 10px;">
+                </div>
+                <div class="col" align="center" style="padding-top: 90px;">
+                    <h1 style="color: tomato;">About me-</h1>
+                    <p al>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis magni asperiores
+                        doloribus
+                        mollitia? Omnis facere repellendus, repellat labore non iure ad cum nobis suscipit blanditiis?
+                        Aliquam iure facere dolorum excepturi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Project-->
+    <div>
+        <div style="font-family: monospace;">
+            <h1 style="color: tomato;" align="center">-Project-</h1>
+            <div style="padding-top: 50px;">
+                <div class="row  justify-content-center">
+                    <div class="pro text-center rectangle">
+                        <img class="img-fluid" src="img/Screenshot 2024-02-26 230710.png">
+                        <h2 class="py-2">Portfolio</h2>
+                    </div>
+                    <div class="pro text-center rectangle">
+                        <img class="img-fluid" src="img/5652030.png.webp">
+                        <h2 class="py-2">JOE</h2>
+                    </div>
+                    <div class="pro text-center rectangle">
+                        <img class="img-fluid" src="img/5652030.png.webp">
+                        <h2 class="py-2">JOE</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--skills-->
+    <div>
+        <div align="center" style="padding-top: 3%; font-family: monospace;">
+            <h1 style="color: tomato;">-Skills-</h1>
+            <h5>Things that I'm good at</h5>
+        </div>
+        <div class="skills" style="font-family: monospace;">
+            <div class="row">
+                <div class="col-6">
+                    <h2>HTML</h2>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h2>CSS</h2>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="background-color: rgba(228, 238, 238, 0.155);">
+                            70%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 50px;">
+                <div class="col-6">
+                    <h2>JS</h2>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h2>Photoshop</h2>
+                    <div class="progress">
+
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuemin="80"
+                            aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="footer">
+        <footer style="padding: 200px 60px;">
+            <h1 style="color: tomato;">Nikhil_port.com</h1>
+            <hr>
+            <div class="row">
+
+                <div class="col-6 col-md border-bottom">
+                    <h5> Nikhil Yadav</h5>
+                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text ever since the 1500s.</span>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Navigation</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary" href="#">Home</a></li>
+                        <li><a class="link-secondary" href="#">About Me</a></li>
+                        <li><a class="link-secondary" href="#">Projects</a></li>
+                        <li><a class="link-secondary" href="#">Skills</a></li>
+                        <li><a class="link-secondary" href="#">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Skills</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary" href="#">HTML</a></li>
+                        <li><a class="link-secondary" href="#">CSS</a></li>
+                        <li><a class="link-secondary" href="#">JS</a></li>
+                        <li><a class="link-secondary" href="#">Photoshop</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Contact Info</h5>
+                    <ul class="list-unstyled text-small">
+                        <li>Gorakhpur,U.P</li>
+                        <li>+91 95541340770</li>
+                        <li>ny717699@gmail.com</li>
+                        <li>www.linkedin.com/in/nikhilyadav005</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <footer class="flex-row">
+                <p>Copyright 2020.All rights reserved.
+                    <a class="float-right" href="#">Privacy Policy</a> · <a href="#">Terms&Condition</a>
+                </p>
+            </footer>
+        </footer>
+
+    </footer>
+</body>
+
+</html>
